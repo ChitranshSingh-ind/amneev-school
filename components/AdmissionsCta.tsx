@@ -20,9 +20,8 @@ export const AdmissionsCta: React.FC = () => {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center gap-2 mb-4 px-3.5 py-1 rounded-full bg-forest-900/80 border border-sand-200/20 backdrop-blur-sm">
-          <span className="w-1.5 h-1.5 rounded-full bg-brass-400" />
-          <span className="text-xs uppercase tracking-editorial font-medium text-sand-100">
+        <div className="inline-flex items-center mb-6 px-4 py-1.5 rounded-full bg-forest-900/80 border border-sand-200/20 backdrop-blur-sm">
+          <span className="font-serif text-xs font-bold text-brass-300 tracking-widest uppercase">
             Admissions Open · Session 2026–27
           </span>
         </div>

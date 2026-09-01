@@ -34,11 +34,11 @@ export const CampusExperience: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mb-14 sm:mb-20">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-forest-950 leading-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-forest-950 leading-tight text-balance">
             An 18,141 sq. m. campus <br />
             <span className="italic font-normal text-forest-800">designed for discovery</span>.
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-charcoal-700 leading-relaxed font-normal">
+          <p className="mt-4 text-base sm:text-lg text-charcoal-700 leading-relaxed font-normal text-pretty">
             Located in Sai City on NH-92 in Etawah, our campus unites tranquil green outdoor learning spaces with modern academic facilities.
           </p>
         </div>
@@ -55,8 +55,8 @@ export const CampusExperience: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-forest-950/80 via-transparent to-transparent" />
           <div className="absolute bottom-6 left-6 right-6 sm:bottom-8 sm:left-8 sm:right-8 flex flex-col sm:flex-row sm:items-end justify-between text-sand-50 gap-4">
             <div className="max-w-xl">
-              <span className="text-xs font-mono uppercase tracking-widest text-brass-300 block mb-1">
-                Campus Environment
+              <span className="text-[11px] font-mono uppercase tracking-widest text-brass-300 block mb-1">
+                26.7856° N, 79.0208° E · Sai City, Farrukhabad Road, Etawah
               </span>
               <p className="text-sm sm:text-base font-serif italic text-sand-100">
                 72 Smart Classrooms · 6 Science & Tech Labs · Multidisciplinary Athletic Grounds · Atal Tinkering Lab
@@ -72,10 +72,15 @@ export const CampusExperience: React.FC = () => {
           </div>
         </div>
 
-        {/* 3 Developmental Stages Horizontal Ledger */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-14 pt-6 border-t border-sand-300">
+        {/* 3 Developmental Stages Architectural Ledger */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-14 pt-8 border-t border-sand-300">
           {stages.map((stage, idx) => (
-            <div key={idx} className="space-y-3">
+            <div
+              key={idx}
+              className={`space-y-3 ${
+                idx < 2 ? "md:border-r md:border-sand-300 md:pr-10" : ""
+              }`}
+            >
               <div className="flex items-center justify-between">
                 <span className="text-xs font-mono font-bold text-forest-800 uppercase tracking-wider">
                   {stage.grades}

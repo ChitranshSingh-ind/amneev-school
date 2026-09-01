@@ -33,14 +33,13 @@
 ## Component Architecture
 
 1. **Navbar:** Fixed sticky header with dynamic scroll transparency-to-solid transition, mega flyout dropdowns for desktop, and full-screen mobile drawer.
-2. **Hero:** Full-width cinematic video overlay (`Mixkit` stream) with high-res poster fallback, editorial typography, dual conversion buttons, and subtle scroll indicator.
-3. **Pillars ("More Than a Classroom"):** 6 visual modules using photography over icon cards, sequential numbers, and smooth hover zoom states.
-4. **Learning Stages:** 3-tier sequential narrative (Early Years Nursery-UKG with Kreedo, Middle Classes I-VIII, Senior Classes IX-XII) with alternating media composition.
-5. **Laboratories & STEM:** Featured showcases for Atal Tinkering Lab (NITI Aayog) and 6 science/computer suites.
-6. **Community Stories:** Filterable student, parent, alumni, and teacher perspectives with an accessible modal reader.
-7. **Admissions Walkthrough:** 4-step clear process (Enquire, Visit, Register ₹1,500, Join) with transparent guidelines.
-8. **Contact & Tour Booking:** Verified address (Sai City, NH-92 Etawah), direct phone (`+91 92196 00500`), and validated interactive inquiry form with instant feedback.
-9. **Centralized Asset Configuration:** Managed entirely via `/data/media.ts` and `/data/siteContent.ts` to allow instant asset drop-in without code edits.
+2. **Hero:** Full-width cinematic video overlay (`Mixkit` stream) with high-res poster fallback, refined institutional badge ("Etawah · Est. 2011"), dual conversion buttons, and subtle scroll cue.
+3. **Philosophy & Leadership (`PhilosophyLeadership`):** Asymmetrical editorial spread combining the educational philosophy essay with Principal Pankaj Sharma's portrait and leadership letter.
+4. **Three Pillars of Distinction (`DistinctivePillars`):** De-boxed narrative showcases for Intellectual Rigour (CBSE), Applied Innovation (Atal Tinkering Lab), and Character/Service (NCC & Sports).
+5. **Living Campus & Learning Stages (`CampusExperience`):** 18,141 sq. metre campus photo feature and 3-tier developmental continuum (Early Years, Middle School, Senior Secondary).
+6. **Institutional Credibility (`InstitutionalCredibility`):** 6 key numeric milestones and verified academic collaborations (Kreedo, Atal Innovation Mission, CBSE New Delhi).
+7. **Admissions Gateway (`AdmissionsGateway`):** Streamlined admissions invitation (Session 2026–27, ₹1,500 registration, +91 92196 00500 helpline) and campus tour booking.
+8. **Comprehensive Sub-Portals (17 Routes):** Dedicated deep-dive pages for Academics, Innovation, Early Years, Middle School, Senior School, Sports, Arts, NCC, Campus, Admissions, Fees, Process, News, Events, Gallery, and Contact.
 
 ## Responsive Design Breakpoints
 

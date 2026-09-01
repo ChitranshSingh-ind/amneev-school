@@ -15,11 +15,11 @@ export const AdmissionsGateway: React.FC = () => {
                 Academic Session 2026–27
               </span>
 
-              <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-forest-950 leading-tight">
+              <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-forest-950 leading-tight text-balance">
                 Begin your child&apos;s journey at <span className="italic font-normal text-forest-800">AMNEEV</span>.
               </h2>
 
-              <p className="text-base sm:text-lg text-charcoal-700 leading-relaxed font-normal">
+              <p className="text-base sm:text-lg text-charcoal-700 leading-relaxed font-normal text-pretty">
                 Admissions are open from Nursery through Class XII across all major streams. We invite families to visit our 18,141 sq. metre campus in Etawah, meet our academic faculty, and experience our learning community firsthand.
               </p>
 
